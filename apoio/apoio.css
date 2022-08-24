@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+/* class's for models */
+.title01{
+font-size: 30px;
+font-weight: 500;
+color:#f4eee9;
+}
+
+.title02{
+    font-size: 38px;
+font-weight: 400;
+color:#333333;
+}
+
+.text01{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buttom01{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #6d6d6d;
+    font-size: 15px;
+    transition: ease-in-out 200ms;
+    cursor: pointer
+}
+
+.buttom01:hover{
+    background-color:#f4eee9 ;
+}
+
+.buttom01:active{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+
+.buttom02{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #cfae85;
+    color: #eadfd2;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttom02:active{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+
+.buttom02:hover{
+    background-color: #b49a78;
+    transition: ease-in-out 200ms;
+}
+
+.section{
+    width: 100%;
+    height: 800px;
+    background-color: #333333;
+}
+
+
+
+/* site budy id and css*/
+
+header{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: absolute
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        max-width: 80%;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    #logo-box{
+        width: 150px;
+        height: 80px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+    }
+    #logo{
+        content: url(./assets/icones/logo-branca.svg);
+        size: 100px;
+        object-fit: cover;
+    }
+    #navbar{
+        width: 800px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar ul{
+            width: 100%;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            list-style: none;
+            padding-left: 80px;
+
+        }
+  #navbar ul li a{
+         
+         margin-right: 40px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #f4eee9;
+            font-style: none;
+            text-decoration: none;
+            
+        }
+
+        #navbar ul li a:hover{
+            cursor: pointer;
+            height: 90px;
+            color: #eadfd2;
+            border-bottom: 1px solid #eadfd2;
+        }
+
+    header .container .icons{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 80px;
+    }
+
+        header .container .icons .iconlist{
+            width: 35px;
+            height: 35px;
+            margin-right: 5px;
+            padding: 8px;
+            object-fit: contain;
+        }
+
+.home{
+    background-image: url(./assets/imagens/banner-pag-de-apoio-20.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 30vh;
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.a-leclinic{
+    background: #f4eee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .text{
+    width: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+
+}
+
+ .images{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.all-img{
+    width: 217px;
+    height: 217px;
+    display: block;
+    margin: 5px;
+
+}
+
+.big-img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 20px;
+}
+
+.contato{
+    width: 100%;
+    height: auto;
+    padding: 50px 80px 50px 80px;
+    background-color: #f4eee9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        .contato .content{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: left;
+        }
+
+            .contato .content form{
+                width: 100%;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .contato .content form .input{
+                    width: 100%;
+                    height: 50px;
+                    margin-bottom: 20px;
+                    border-bottom: 2px solid #fff;
+                    background-color: transparent;
+                }
+
+            .contato .content .title02{
+                font-size: 25px;
+                text-align: left;
+
+            }
+
+            .contato .content .text01{
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 22px;
+                text-align: left;
+                margin: 10px 0px 20px 0px;
+            }
+
+    .contato .content2{
+        width: 50%;
+        height: 300px;
+        padding-left: 100px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+    }
+
+    .contato .content2 .loc{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contato .content2 .loc .titolo{
+        margin: 5;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+        color: #333333;
+        text-align: center;
+        width: 500px;
+    }
+    .contato .content2 .loc .conteudo{
+        margin: 5;
+        width: 500px;
+        font-size: 17px;
+        color: #333333;
+        text-align: center;
+    }
+
+
+    .mapouter{
+        width: 100%;
+        height: 250px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        opacity: 0.9;
+        fill: #cfae85;
+}
+
+/* Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    Footer    */
+
+footer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    background-color: #cfae85;
+
+}
+
+    footer .container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    footer .container #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+        footer .container #navbar #ul{
+            display: flex;
+            width: 120px;
+            flex-direction: column;
+            padding: 22px;
+        }
+
+        footer .container #navbar #ul .il{
+            display: flex;
+            justify-content: left;
+            text-align: left;
+            width: 200px;
+            margin: auto;
+        }
+
+            footer .container #navbar #ul .il a{
+                font-size: 12px;
+                color: #fff;
+                text-align: left;
+                line-height: 20px;
+                margin: 0;
+                padding: 0;
+            }
+
+            footer .container #navbar #ul .il a:hover{
+                cursor: pointer;
+                height: 30px;
+                color: #eadfd2;
+                border-bottom: 1px solid #eadfd2;
+            }
+
+        footer .container #logo-box{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer .container #logo{
+            width: 170px;
+            margin-bottom: 20px;
+        }
+
+        #contatos .cont{
+            width: 100%;
+            height: 100px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+    
+        #contatos .ico{
+            width: 30px;
+            height: 30px;
+            margin-right:  25px;
+            object-fit: contain;
+            border: 3px solid transparent;
+            transition: ease-in-out 100ms;
+            opacity: 0.7;
+    
+        }
+        #contatos  .ico:hover{
+            border: 0px solid transparent;
+            opacity: 1;
+    
+        }
+
+
+         footer .container .horarios{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            color: #eadfd2;
+    }
+
+    footer .container .horarios .title02{
+        font-size: 20px;
+        text-align: left;
+        margin: 0;
+        color: #fff
+
+    }
+
+    footer .container .horarios .text{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 25px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+
+    }
+        footer .container .icons .iconlist{
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            padding: 10px;
+            object-fit: contain;
+        }
+
+        .cerdt{
+            position: absolute;
+            bottom: -1130px;
+            color: #6d6d6d;
+            opacity: 1;
+            font-weight: 300;
+            font-size: 15px;
+        }
+
+        .cerdt a{
+            font-family: "Poppins";
+            font-weight: 220;
+            cursor: pointer;
+            color: #6d6d6d;
+            text-decoration: none;
+        }

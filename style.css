@@ -101,7 +101,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imagens/home_1-100.jpg);
+    background-image: url(./assets/imagens/home_1-100.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -124,7 +124,7 @@ header{
 
     }
     #logo{
-        content: url(./icones/logo-branca.svg);
+        content: url(./assets/icones/logo-branca.svg);
         size: 100px;
         object-fit: cover;
     }
@@ -144,9 +144,9 @@ header{
             padding-left: 80px;
 
         }
-
-        #navbar ul li a{
-            margin-right: 30px;
+  #navbar ul li a{
+         
+         margin-right: 30px;
             font-size: 18px;
             font-weight: 300;
             color: #f4eee9;
@@ -171,20 +171,20 @@ header{
     }
 
         header .container .icons .iconlist{
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             margin-right: 5px;
             padding: 8px;
             object-fit: contain;
         }
 
 .home{
-    background-image: url(./imagens/home_1-100.jpg);
+    background-image: url(./assets/imagens/home_1-100.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    padding-left: 200px;
+    padding-left: 150px;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -193,7 +193,7 @@ header{
 
 #quem-somos{
     width: 100%;
-    height: 700px;
+    height: 600px;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #eadfd2;
@@ -204,13 +204,13 @@ header{
 }
 
 #quem-somos .text01{
-    width: 700px;
-    font-size: 16px;
+    width: 620px;
+    font-size: 15px;
     line-height: 25px;
 }
 
 #quem-somos::before{
-    content: url(./Nomes/nossa-história.svg);
+    content: url(./assets/imagens/nossa-história.svg);
     position:absolute;
     object-fit: cover;
     margin-bottom: 430px;
@@ -227,8 +227,8 @@ header{
     }
 #banner{
     width: 100%;
-    height: 400px;
-    background-image: url(./imagens/banner-100.jpg);
+    height: 300px;
+    background-image: url(./assets/imagens/banner-100.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -322,12 +322,12 @@ section{
     }
 
     section .carousel .swiper-button-next{
-        content: url(./icones/seta-direita.svg);
+        content: url(./assets/icones/seta-direita.svg);
         background-color: transparent;
     }
 
     section .carousel .swiper-button-prev{
-        content: url(./icones/seta-esquerda.svg);
+        content: url(./assets/icones/seta-esquerda.svg);
         background-color: transparent
 
     }
@@ -337,7 +337,7 @@ section{
 #banner02{
     width: 100%;
     height: 600px;
-    background-image: url(./imagens/banner-2_1-100.jpg);
+    background-image: url(./assets/imagens/banner-2_1-100.jpg);
     background-position: center;
     background-size: cover;
     display:flex;
@@ -360,11 +360,11 @@ section{
 }
 
 .section2::before{
-    content: url(./Nomes/Especialidades.svg);
+    content: url(./assets/imagens/Especialidades.svg);
     position:absolute;
     object-fit: cover;
     margin-bottom: 260px;
-    width: 550px;
+    width: 450px;
     
 
 }
@@ -902,7 +902,7 @@ section{
 #banner03{
     width: 100%;
     height: 500px;
-    background-image: url(./imagens/banner-3_1-100.jpg);
+    background-image: url(./assets/imagens/banner-3_1-100.jpg);
     background-position: center;
     background-attachment:scroll;
     background-size: cover;
@@ -938,11 +938,11 @@ section{
 }
 
 .depoimentos::before{
-    content: url(./Nomes/feedbacks.svg);
+    content: url(./assets/imagens/feedbacks.svg);
     position:absolute;
     object-fit: cover;
-    margin-bottom: 300px;
-    width: 400px;
+    margin-bottom: 250px;
+    width: 320px;
 }
 
     .depoimentos .content{
@@ -950,6 +950,7 @@ section{
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        width: 180vh;
 
     }
 
@@ -958,7 +959,7 @@ section{
             width: 400px;
             height: 180px;
             padding: 0px  10px  0px  10px ;
-            margin: 0px 30px 0px 30px;
+            margin: 0px 15px 0px 15px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -981,6 +982,9 @@ section{
                 text-align: center;
                 color: #333333;
             }
+            .depoimentos .buttom01{
+                padding: 15px 10px 15px 10px;
+            }
 
             .depoimentos .buttom01:hover{
                 background-color: #d3d2d2;
@@ -1000,11 +1004,11 @@ section{
 }
 
 .resultados::before{
-    content: url(./Nomes/resultados.svg);
+    content: url(./assets/imagens/resultados.svg);
     position:absolute;
     object-fit: cover;
-    margin-bottom: 300px;
-    width: 350px;
+    margin-bottom: 260px;
+    width: 300px;
 }
 
     .resultados .imgs{
@@ -1084,7 +1088,7 @@ section{
     .contato .content2{
         width: 50%;
         height: auto;
-        padding-left: 150px;
+        padding-left: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1109,13 +1113,15 @@ section{
         font-size: 35px;
         font-weight: 400;
         color: #333333;
-        text-align: left;
+        text-align: center;
+        width: 500px;
     }
     .contato .content2 .loc .conteudo{
         margin: 5;
         font-size: 20px;
         color: #333333;
-        text-align: left;
+        text-align: center;
+        width: 500px;
     }
 
 
@@ -1287,6 +1293,24 @@ footer{
 
 }
 
+#navbar ul li a{
+         
+    margin-right: 35px;
+       font-size: 14px;
+       font-weight: 300;
+       color: #f4eee9;
+       font-style: none;
+       text-decoration: none;
+       
+   }
+
+   #navbar ul li a:hover{
+       cursor: pointer;
+       height: 90px;
+       color: #eadfd2;
+       border-bottom: 1px solid #eadfd2;
+   }
+
     .modal-content{
         background-color: #fff;
         margin: 20% auto;
@@ -1366,9 +1390,9 @@ footer{
         }
 
         .modal .modal-content .content2 .text01{
-            padding-left: 50px;
+            padding: 50px;
             text-align: justify;
-            width: 450px;
+            width: 100%;
             height: 60%;
             font-size: 14px;
             line-height: 25px;
@@ -1443,7 +1467,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: left;
-        padding-left: 200px;
+        padding-left: 100px;
     }
 
         .contato .content2 .title02{
@@ -1520,7 +1544,7 @@ footer{
                 }
         
                 footer .container #logo{
-                    width: 200px;
+                    width: 170px;
                     margin-bottom: 20px;
                 }
 
@@ -1553,9 +1577,9 @@ footer{
                 }
             
                 #contatos #logo-box  .ico{
-                    width: 40px;
-                    height: 40px;
-                    margin-right:  40px;
+                    width: 30px;
+                    height: 30px;
+                    margin-right:  30px;
                     object-fit: contain;
                     border: 3px solid transparent;
                     transition: ease-in-out 100ms;
@@ -1619,7 +1643,7 @@ footer{
 
 }
 
-@media(max-width: 393px) {
+@media(max-width: 600px) {
     *{
         padding: 0;
         margin: 0;
@@ -1740,7 +1764,7 @@ footer{
                 align-items: center;
             }
             #logo{
-                content: url(./icones/logo-branca.svg);
+                content: url(./assets/icones/logo-branca.svg);
                 size: 200px;
                 object-fit: cover;
             }
@@ -1770,7 +1794,7 @@ footer{
                 }
 
 .home{
-    background: url(./imagens/home-mobile_1-20.jpg);
+    background: url(./assets/imagens/home-mobile_1-20.jpg);
     background-position: center;
     background-size: cover;
     height: 800px;
@@ -1785,7 +1809,7 @@ footer{
     width: 100%;
     height: auto;
     padding: 50px;
-    padding-bottom: 2px;
+    padding-bottom: 50px;
     background-color: #eadfd2;
     display: flex;
 
@@ -1814,7 +1838,7 @@ footer{
 #banner{
     width: 100%;
     height: 600px;
-    background-image: url(./imagens/banner-1-mobile_1-20.jpg);
+    background-image: url(./assets/imagens/banner-1-mobile_1-20.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1914,7 +1938,7 @@ section{
         font-size: 12px;
     }
 .swiper-button-next{
-        content: url(./icones/right.png);
+        content: url(./assets/icones/right.png);
         background: transparent;
 
     }
@@ -1925,7 +1949,7 @@ section{
     }
     
 .swiper-button-prev{
-        content: url(./icones/left.svg);
+        content: url(./assets/icones/left.svg);
         background: transparent;
         object-fit: contain;
     
@@ -1935,7 +1959,8 @@ section{
 #banner02{
     width: 100%;
     height: 800px;
-    background-image: url(./imagens/banner-2-mobile_1-20.jpg);
+    padding: 20px;
+    background-image: url(./assets/imagens/banner-2-mobile_1-20.jpg);
     background-position: center;
     background-size: cover;
     display:flex;
@@ -1965,7 +1990,7 @@ section{
 #banner03{
     width: 100%;
     height: 700px;
-    background-image: url(./imagens/banner-3-mobile_1-20.jpg);
+    background-image: url(./assets/imagens/banner-3-mobile_1-20.jpg);
     background-position: center;
     background-attachment:scroll;
     background-size: cover;
@@ -1994,6 +2019,7 @@ section{
             width: 100%;
             height: auto;
             padding: 10px;
+            padding-top: 30px;
             background-color: #eadfd2;
             display: flex;
             justify-content: center;
@@ -2004,7 +2030,7 @@ section{
         
 .resultados .imgs{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2157,6 +2183,7 @@ section{
             font-weight: 400;
             color: #333333;
             text-align: left;
+            width: 200px;
 
         }
         .contato .content2 .loc .conteudo{
@@ -2164,6 +2191,7 @@ section{
             font-size: 12px;
             color: #333333;
             text-align: left;
+            width: 200px;
         }
 
 #contatos .icons{
@@ -2179,10 +2207,10 @@ section{
 }
 
 .mapouter{
-    width: 300px;
+   min-width: 300px;
     height: 100px;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: center;
     opacity: 0.9;
     fill: #cfae85;
@@ -2273,7 +2301,7 @@ footer{
         }
         
 #quem-somos::before{
-    content: url(./Nomes/nossa-história.svg);
+    content: url(./assets/imagens/nossa-história.svg);
     position:absolute;
     object-fit: cover;
     margin-bottom: 800px;
@@ -2281,7 +2309,7 @@ footer{
 }
 
 .section2::before{
-    content: url(./Nomes/Especialidades.svg);
+    content: url(./assets/imagens/Especialidades.svg);
     position:absolute;
     object-fit: cover;
     margin-bottom: 260px;
@@ -2289,12 +2317,19 @@ footer{
 }
 
 .depoimentos::before{
-    content: url(./Nomes/feedbacks.svg);
+    content: url(./assets/imagens/feedbacks.svg);
     position:absolute;
     object-fit: cover;
     margin-bottom: 550px;
     width: 300px;
 }
+
+.resultados::before{
+    content: url(./assets/imagens/resultados.svg);
+    position:absolute;
+    object-fit: cover;
+    margin-bottom: 1080px;
+    width: 350px;
     
-    
+}    
     }
